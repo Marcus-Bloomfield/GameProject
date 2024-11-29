@@ -85,7 +85,7 @@ After each entity's turn has went, they move down the turn order bar a certain a
 >[!note]
 > Don't go crazy detailed with the wireframes! These should be minimal sketches to convey to the customer what the app will roughly look like. These things tend to change over time as requirements evolve, but you need to start from somewhere.
 
-![Login View](proposal_photos/IMG_6307.jpeg)
+![picture](ReadmePics/TitleScreen.ong)
 
 Main menu where you can search for a specific rental with a filter button to filter it by size and price. You can scroll down to see more rentals, pressing on the area of the rental brings you to the rental information page. There is a bar at the top to login, see all rentals and to see your rentals, you can also press on the hut logo to go back to the main page (all rentals)
 
