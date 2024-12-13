@@ -28,14 +28,14 @@ After each entity's turn has went, they move down the turn order bar a certain a
 -   **Combat Menu** Users have a Combat Menu to select options from during battle to allow them to do actions included in the menu.
 -   **Movement** Users can move a character around the Combat Grid using the move selection in the Combat Menu.
 -   **Attack** Users can select Attack on the Combat Grid to attack an enemy with a physical attack within a range around the character to deal damage to the enemy's health.
--   **Magic** Users can select Magic on the Combat Grid to attack an enemy with a magical attack with an unlimited range to deal damage to the enemy's health.
--   **Character Information Profiles** Users can view the Health Points and Magic Points of a character at the bottom of the screen.
--   **Turn Order Bar** Users can view the turn order of characters and enemies on a bar on the left of the screen with the next characters being the ones near the top and the last being the ones at the bottoms.
 
 ### Nice to haves
 -   **Items** Users can select Item on the Combat Grid to use an item on a popup screen with all the items they may be holding that can heal the user or do other functions.
 -   **Run** Users can select Run on the Combat Grid to run away from a fight.
 -   **Enemy Information** Users can view information about the enemy while hovering over an enemy with an attack selector or magic selector.
+-   **Magic** Users can select Magic on the Combat Grid to attack an enemy with a magical attack with an unlimited range to deal damage to the enemy's health.
+-   **Character Information Profiles** Users can view the Health Points and Magic Points of a character at the bottom of the screen.
+-   **Turn Order Bar** Users can view the turn order of characters and enemies on a bar on the left of the screen with the next characters being the ones near the top and the last being the ones at the bottoms.
 
 #### User Combat Stories
 
@@ -43,18 +43,12 @@ After each entity's turn has went, they move down the turn order bar a certain a
 -   As a user, I want to move a certain distance within the range I have.
 -   As a user, I want to move and attack in one turn.
 -   As a user, I want to deal damage to an enemy through a physical attack.
--   As a user, I want to deal damage to an enemy through a magical attack.
 -   As a user, I want to deal a reasonable amount of damage to an enemy.
 -   As a user, I want to be able to defeat an enemy by reducing its health to 0.
--   As a user, I shouldn't be able to use a magic attack if my magic power is less than the required amount.
 -   As a user, I shouldn't be able to attack an enemy if I'm not close enough.
 -   As a user, I shouldn't be able to move into the area that my allies or enemies are in.
 -   As a user, I shouldn't be able to attack my allies.
 -   As a user, I want my allies to be able to die.
--   As a user, I want to be able to revive my allies.
--   As a user, I want to be able to see my health and MP on a display at the bottom of the screen.
--   As a user, I want to see when my allies' turn is coming next in the turn order bar.
--   As a user, I want to see when my enemies' turn is coming next in the turn order bar.
 
 ### Nice to haves
 -   As a user, I want to be able to use an item to heal my health or restore magic power.
@@ -63,18 +57,24 @@ After each entity's turn has went, they move down the turn order bar a certain a
 -   As a user, I shouldn't be able to move into the area that blockades are in.
 -   As a user, I want to be able to run from a battle. 
 -   As a user, I want to see information regarding my enemy when the selector is hovering over them.
+-   As a user, I want to deal damage to an enemy through a magical attack.
+-   As a user, I shouldn't be able to use a magic attack if my magic power is less than the required amount.
+-   As a user, I want to be able to revive my allies.
+-   As a user, I want to be able to see my health and MP on a display at the bottom of the screen.
+-   As a user, I want to see when my allies' turn is coming next in the turn order bar.
+-   As a user, I want to see when my enemies' turn is coming next in the turn order bar.
 
 #### User Animation Stories
 
 ### Must haves
 -   As a user, I want my allies and enemies to have an idle animation in all directions.
 -   As a user, I want my physical attacks to have an attacking animation.
--   As a user, I want my magic attacks to have an attacking animation.
 -   As a user, I want a running animation when moving around the battle.
 ### Nice to haves
 -   As a user, I want a using an item animation to play when using an item on an ally.
 -   As a user, I want my attacks or enemies attack to cause the entity to do a stagger animation
 -   As a user, I want to see my allies fade out with a "successfully ran" message on the screen.
+-   As a user, I want my magic attacks to have an attacking animation.
 
 ## State Stack Diagram
 
